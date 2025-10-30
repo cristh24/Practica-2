@@ -23,9 +23,9 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFIA = [
-            { filaNombre: 56, filaValor: 56 }, { filaNombre: 62, filaValor: 62 },
-            { filaNombre: 61, filaValor: 61 }, { filaNombre: 63, filaValor: 63 },
-            { filaNombre: 64, filaValor: 64 }
+            { filaNombre: 55, filaValor: 55 }, { filaNombre: 56, filaValor: 56 },
+            { filaNombre: 57, filaValor: 57 }, { filaNombre: 58, filaValor: 58 },
+            { filaNombre: 59, filaValor: 59 }
         ];
 
         const escuelasFCE = [
@@ -34,8 +34,8 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFCE = [
-            { filaNombre: 55, filaValor: 55 }, { filaNombre: 65, filaValor: 65 },
-            { filaNombre: 57, filaValor: 57 }, { filaNombre: 66, filaValor: 66 }
+            { filaNombre: 60, filaValor: 60 }, { filaNombre: 61, filaValor: 61 },
+            { filaNombre: 62, filaValor: 62 }, { filaNombre: 63, filaValor: 63 }
         ];
 
         const escuelasFACIHED = [
@@ -45,9 +45,9 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFACIHED = [
-            { filaNombre: 67, filaValor: 67 }, { filaNombre: 68, filaValor: 68 },
-            { filaNombre: 69, filaValor: 69 }, { filaNombre: 71, filaValor: 71 },
-            { filaNombre: 70, filaValor: 70 }, { filaNombre: 72, filaValor: 72 }
+            { filaNombre: 64, filaValor: 64 }, { filaNombre: 65, filaValor: 65 },
+            { filaNombre: 66, filaValor: 66 }, { filaNombre: 67, filaValor: 67 },
+            { filaNombre: 68, filaValor: 68 }, { filaNombre: 69, filaValor: 69 }
         ];
 
         const escuelasFCS = [
@@ -56,19 +56,19 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFCS = [
-            { filaNombre: 58, filaValor: 58 }, { filaNombre: 59, filaValor: 59 },
-            { filaNombre: 60, filaValor: 60 }
+            { filaNombre: 70, filaValor: 70 }, { filaNombre: 71, filaValor: 71 },
+            { filaNombre: 72, filaValor: 72 }
         ];
 
-        const docentesConfig = Array.from({length: 80}, (_, i) => ({
+        const docentesConfig = Array.from({length: 78}, (_, i) => ({
             filaNombre: 77 + i,
-            filaValor: 2 + i
+            filaValor: 77 + i
         }));
 
-        const clasesBiblicasRango = { inicio: 164, fin: 244 };
-        const leccionesActualesRango = { inicio: 245, fin: 322};
-        const docentesLideresRango = { inicio: 297, fin: 359 };
-        const leccionActualRango = { inicio: 364, fin: 422 };
+        const clasesBiblicasRango = { inicio: 162, fin: 241 };
+        const leccionesActualesRango = { inicio: 248, fin: 327};
+        const docentesLideresRango = { inicio: 77, fin: 154 };
+        const leccionActualRango = { inicio: 426, fin: 489 };
 
         const facultadesConfig = [
             { filaNombre: 281, filaValor: 288 },
