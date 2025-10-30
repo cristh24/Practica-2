@@ -60,13 +60,13 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
             { filaNombre: 60, filaValor: 60 }
         ];
 
-        const docentesConfig = Array.from({length: 54}, (_, i) => ({
+        const docentesConfig = Array.from({length: 80}, (_, i) => ({
             filaNombre: 77 + i,
             filaValor: 2 + i
         }));
 
-        const clasesBiblicasRango = { inicio: 149, fin: 211 };
-        const leccionesActualesRango = { inicio: 215, fin: 277 };
+        const clasesBiblicasRango = { inicio: 164, fin: 244 };
+        const leccionesActualesRango = { inicio: 245, fin: 322};
         const docentesLideresRango = { inicio: 297, fin: 359 };
         const leccionActualRango = { inicio: 364, fin: 422 };
 
@@ -78,18 +78,18 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const clasesPorEscuelaConfig = [
-            { filaNombre: 428, filaValor: 443 },
-            { filaNombre: 429, filaValor: 444 },
-            { filaNombre: 430, filaValor: 445 },
-            { filaNombre: 431, filaValor: 446 },
-            { filaNombre: 432, filaValor: 447 },
-            { filaNombre: 433, filaValor: 448 },
-            { filaNombre: 434, filaValor: 449 },
-            { filaNombre: 435, filaValor: 450 },
-            { filaNombre: 436, filaValor: 451 },
-            { filaNombre: 437, filaValor: 452 },
-            { filaNombre: 438, filaValor: 453 },
-            { filaNombre: 439, filaValor: 454 },
+            { filaNombre: 469, filaValor: 484 },
+            { filaNombre: 470, filaValor: 485 },
+            { filaNombre: 471, filaValor: 486 },
+            { filaNombre: 472, filaValor: 487 },
+            { filaNombre: 473, filaValor: 488 },
+            { filaNombre: 474, filaValor: 489 },
+            { filaNombre: 475, filaValor: 490 },
+            { filaNombre: 476, filaValor: 491 },
+            { filaNombre: 477, filaValor: 492 },
+            { filaNombre: 478, filaValor: 493 },
+            { filaNombre: 479, filaValor: 494 },
+            { filaNombre: 480, filaValor: 495 },
         ];
 
         const colorSchemes = [
