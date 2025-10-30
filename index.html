@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Clases Bíblicas UPeU Juliaca</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="loading-overlay" id="loadingOverlay">
+    <div><div class="spinner"></div><p style="margin-top: 15px; color: var(--gray-700); font-weight: 600;">Cargando datos...</p></div>
+  </div>
+
+  <div class="status-bar">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div class="status-item">
+        <div class="status-dot online"></div>
+        <span><strong>Estado:</strong> Conectado</span>
+      </div>
+      <div class="status-item">
+        <i class="fas fa-sync-alt"></i>
+        <span><strong>Auto-actualización:</strong> Activa (1 min)</span>
+      </div>
+    </div>
+    <div class="last-update">
+      <i class="far fa-clock"></i>
+      <span id="lastUpdateTime">Actualizando...</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Clases Bíblicas UPeU Juliaca</h1>
+      <div class="subtitle"><i class="fas fa-chart-line"></i> Sistema de Monitoreo en Tiempo Real</div>
+      <div class="header-stats">
+        <div class="header-stat"><div class="header-stat-number" id="totalStudents">0</div><div class="header-stat-label">Total Estudiantes</div></div>
+        <div class="header-stat"><div class="header-stat-number" id="totalTeachers">0</div><div class="header-stat-label">Docentes</div></div>
+        <div class="header-stat"><div class="header-stat-number" id="totalClasses">0</div><div class="header-stat-label">Clases Activas</div></div>
+      </div>
+    </header>
+
+    <div class="button-bar">
+      <button class="faculty-btn" onclick="location.href='index.html'"><i class="fas fa-home"></i> INICIO</button>
+      <button class="faculty-btn" onclick="location.href='fia.html'"><i class="fas fa-drafting-compass"></i> FIA</button>
+      <button class="faculty-btn" onclick="location.href='fce.html'"><i class="fas fa-briefcase"></i> FCE</button>
+      <button class="faculty-btn" onclick="location.href='facihed.html'"><i class="fas fa-graduation-cap"></i> FACIHED</button>
+      <button class="faculty-btn" onclick="location.href='fcs.html'"><i class="fas fa-heartbeat"></i> FCS</button>
+    </div>
+
+    <section class="content-section">
+      <div class="faculty-title"><h2 id="faculty-title"></h2></div>
+      <div class="chart-grid" id="grid"></div>
+    </section>
+
+    <footer>
+      <p><i class="fas fa-shield-alt"></i> Sistema de Visualización Clases Bíblicas | Asuntos Académicos © 2025</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
