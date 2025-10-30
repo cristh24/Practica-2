@@ -23,9 +23,9 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFIA = [
-            { filaNombre: 56, filaValor: 56 }, { filaNombre: 57, filaValor: 57 },
-            { filaNombre: 58, filaValor: 58 }, { filaNombre: 59, filaValor: 59 },
-            { filaNombre: 62, filaValor: 62 }
+            { filaNombre: 56, filaValor: 56 }, { filaNombre: 62, filaValor: 62 },
+            { filaNombre: 61, filaValor: 61 }, { filaNombre: 63, filaValor: 63 },
+            { filaNombre: 64, filaValor: 64 }
         ];
 
         const escuelasFCE = [
@@ -34,9 +34,10 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFCE = [
-            { filaNombre: 60, filaValor: 60 }, { filaNombre: 61, filaValor: 61 },
-            { filaNombre: 62, filaValor: 62 }, { filaNombre: 63, filaValor: 63 }
+            { filaNombre: 55, filaValor: 55 }, { filaNombre: 65, filaValor: 65 },
+            { filaNombre: 57, filaValor: 57 }, { filaNombre: 66, filaValor: 66 }
         ];
+
 
         const escuelasFACIHED = [
             { filaNombre: 36, filaValor: 14 }, { filaNombre: 39, filaValor: 17 },
@@ -45,9 +46,9 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFACIHED = [
-            { filaNombre: 64, filaValor: 64 }, { filaNombre: 65, filaValor: 65 },
-            { filaNombre: 66, filaValor: 66 }, { filaNombre: 67, filaValor: 67 },
-            { filaNombre: 68, filaValor: 68 }, { filaNombre: 69, filaValor: 69 }
+            { filaNombre: 67, filaValor: 67 }, { filaNombre: 68, filaValor: 68 },
+            { filaNombre: 69, filaValor: 69 }, { filaNombre: 71, filaValor: 71 },
+            { filaNombre: 70, filaValor: 70 }, { filaNombre: 72, filaValor: 72 }
         ];
 
         const escuelasFCS = [
@@ -56,9 +57,10 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFCS = [
-            { filaNombre: 70, filaValor: 70 }, { filaNombre: 71, filaValor: 71 },
-            { filaNombre: 72, filaValor: 72 }
+            { filaNombre: 58, filaValor: 58 }, { filaNombre: 59, filaValor: 59 },
+            { filaNombre: 60, filaValor: 60 }
         ];
+
 
         const docentesConfig = Array.from({length: 78}, (_, i) => ({
             filaNombre: 77 + i,
