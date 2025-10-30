@@ -23,9 +23,9 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const bautizadosFIA = [
-            { filaNombre: 55, filaValor: 55 }, { filaNombre: 56, filaValor: 56 },
-            { filaNombre: 57, filaValor: 57 }, { filaNombre: 58, filaValor: 58 },
-            { filaNombre: 59, filaValor: 59 }
+            { filaNombre: 56, filaValor: 56 }, { filaNombre: 57, filaValor: 57 },
+            { filaNombre: 58, filaValor: 58 }, { filaNombre: 59, filaValor: 59 },
+            { filaNombre: 60, filaValor: 60 }
         ];
 
         const escuelasFCE = [
