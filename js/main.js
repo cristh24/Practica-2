@@ -73,7 +73,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         const leccionActualRango = { inicio: 426, fin: 489 };
 
         const facultadesConfig = [
-            { filaNombre: 281, filaValor: 288 },
+            { filaNombre: 335, filaValor: 342 },
             { filaNombre: 282, filaValor: 289 },
             { filaNombre: 283, filaValor: 290 }, 
             { filaNombre: 284, filaValor: 291 },
