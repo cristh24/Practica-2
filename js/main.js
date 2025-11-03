@@ -70,7 +70,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         const clasesBiblicasRango = { inicio: 162, fin: 241 };
         const leccionesActualesRango = { inicio: 248, fin: 327};
         const docentesLideresRango = { inicio: 350, fin: 430 };
-        const leccionActualRango = { inicio: 436, fin: 499 };
+        const leccionActualRango = { inicio: 436, fin: 516 };
 
         const facultadesConfig = [
             { filaNombre: 334, filaValor: 341 },
@@ -81,18 +81,18 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
         ];
 
         const clasesPorEscuelaConfig = [
-            { filaNombre: 500, filaValor: 516 },
-            { filaNombre: 501, filaValor: 517 },
-            { filaNombre: 502, filaValor: 518 },
-            { filaNombre: 503, filaValor: 519 },
-            { filaNombre: 504, filaValor: 520 },
-            { filaNombre: 505, filaValor: 521 },
-            { filaNombre: 506, filaValor: 522 },
-            { filaNombre: 507, filaValor: 523 },
-            { filaNombre: 508, filaValor: 524 },
-            { filaNombre: 509, filaValor: 525 },
-            { filaNombre: 510, filaValor: 526 },
-            { filaNombre: 511, filaValor: 527 },
+            { filaNombre: 520, filaValor: 536 },
+            { filaNombre: 521, filaValor: 537 },
+            { filaNombre: 522, filaValor: 538 },
+            { filaNombre: 523, filaValor: 539 },
+            { filaNombre: 524, filaValor: 540 },
+            { filaNombre: 525, filaValor: 541 },
+            { filaNombre: 526, filaValor: 542 },
+            { filaNombre: 527, filaValor: 543 },
+            { filaNombre: 528, filaValor: 544 },
+            { filaNombre: 529, filaValor: 545 },
+            { filaNombre: 530, filaValor: 546 },
+            { filaNombre: 531, filaValor: 547 },
         ];
 
         const colorSchemes = [
