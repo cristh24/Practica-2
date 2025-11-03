@@ -69,8 +69,8 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
 
         const clasesBiblicasRango = { inicio: 162, fin: 241 };
         const leccionesActualesRango = { inicio: 248, fin: 327};
-        const docentesLideresRango = { inicio: 77, fin: 154 };
-        const leccionActualRango = { inicio: 426, fin: 489 };
+        const docentesLideresRango = { inicio: 350, fin: 430 };
+        const leccionActualRango = { inicio: 436, fin: 499 };
 
         const facultadesConfig = [
             { filaNombre: 334, filaValor: 341 },
