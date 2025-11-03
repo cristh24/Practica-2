@@ -77,6 +77,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
             { filaNombre: 335, filaValor: 342 },
             { filaNombre: 336, filaValor: 343 }, 
             { filaNombre: 337, filaValor: 344 },
+            { filaNombre: 338, filaValor: 345 },
         ];
 
         const clasesPorEscuelaConfig = [
