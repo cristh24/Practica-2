@@ -93,6 +93,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQiFXjYjAygAB
             { filaNombre: 529, filaValor: 545 },
             { filaNombre: 530, filaValor: 546 },
             { filaNombre: 531, filaValor: 547 },
+            { filaNombre: 532, filaValor: 548 },
         ];
 
         const colorSchemes = [
